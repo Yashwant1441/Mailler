@@ -1,0 +1,351 @@
+body{
+    font-family: "Rubik", serif !important;
+    line-height: 1.5 !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #757575 !important;
+}
+h1{
+    font-family: "Plus Jakarta Sans", serif !important;
+    color: #353f4f !important;
+}
+h4{
+    font-family: "Plus Jakarta Sans", serif !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    color: #353f4f !important;
+}
+h2{
+    color: #353f4f !important;
+}
+.fa-5x {
+    font-size: 5em;
+}
+.fa-4x {
+    font-size: 4em;
+}
+.feature a{
+    display: inline-block;
+    text-decoration: none;
+    color: #353f4f !important;
+}
+.feature-img{
+    background: #f6f6fa;
+    border-radius: 58% 42% 21% 79% / 30% 29% 71% 70%;
+}   
+.price-item{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color:  rgb(247, 71, 128) !important;
+    color: white;
+    top: -45px;
+    right: -80px;
+    transform: rotate(42deg);
+}
+.blog-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background: rgba(102, 16, 242, 0.2);
+    color: var(--bs-white) !important;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.animated{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    position: relative;
+}
+/* ---------------------------Color----------------------- */
+.text-pink{
+   color: rgb(247, 71, 128) !important; 
+}
+.text-darkblue{
+    color: #6610f2 !important;
+}
+.border-pink{
+    border: 1px solid rgb(247, 71, 128) !important;
+}
+.bg-pink{
+    background-color: rgb(247, 71, 128) !important;
+}
+.bg-lightpink{
+    background-color: rgba(233, 152, 178, 0.303) !important;
+}
+.bg-darkblue{
+    background: rgba(102, 16, 242, 0.2);
+}
+
+ 
+/* -----------------------------hover-------------------------- */
+
+.hover:hover{
+    color: rgb(247, 71, 128) !important;
+    transition: all 0.3s;
+}
+.active{
+    /* color: rgb(247, 71, 128) !important; */
+}    
+.hover1:hover{
+    background-color:  rgb(247, 71, 128) !important;
+    color: white !important;
+    transition: all 0.3s;
+}
+.hover2:hover{
+    background-color: white !important;
+    color: rgb(247, 71, 128) !important;
+    transition: all 0.3s;
+}
+.hover3:hover{
+    background-color: #976bea3e;
+    transition: all 0.3s;
+}
+.feature a:hover{
+    color: rgb(247, 71, 128) !important;
+    transition: all 0.2s;
+}
+.hover5:hover{
+    background-color: white !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 0.3s;
+}
+.hover6:hover img{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-blend-mode: overlay;
+}
+ 
+/* --------------------------------animation---------------- */
+
+.RotateMoveLeft{
+    position: relative;
+    animation: moveleft 10s linear infinite;
+}
+
+@keyframes moveleft{
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 40px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.fadeUp{
+    animation: fadeup;
+    visibility: visible;
+    animation-delay: 0.1s;
+}
+
+@keyframes fadeUp{
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes Rotate{
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        left: -10px;
+    }
+    75%{
+        bottom: 9%;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
+@keyframes Move{
+    0%{
+        right: 0px;
+    }
+    50%{
+        right: 20px;
+    }
+    0%{
+        right: 0px;
+    }
+}
+
+@keyframes Move1{
+    0% {
+        left: 100px;
+    }
+    40% {
+        bottom: -0px;
+    }
+    50% {
+        left: 700px;
+    }
+    70% {
+        bottom: 500px;
+    }
+    80% {
+        left: 400px;
+    }
+    95% {
+        bottom: -0px;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+@keyframes Move2{
+    0% {
+        left: 100px;
+    }
+    40% {
+        bottom: -0px;
+    }
+    50% {
+        left: 700px;
+    }
+    70% {
+        bottom: 500px;
+    }
+    80% {
+        left: 400px;
+    }
+    95% {
+        bottom: -0px;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+@keyframes Move3{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 200px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+@keyframes Move4{
+    0% {
+        left: 0px;
+    }
+    40% {
+        top: -30px;
+    }
+    50% {
+        left: 500px;
+    }
+    70% {
+        top: 200px;
+    }
+    80% {
+        left: 100px;
+    }
+    95% {
+        top: -30px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+
+/* ----------------------------Before-After------------------ */
+
+.animation-top::before{
+    content: "";
+    position: absolute;
+    border: 30px solid rgba(247, 71, 128, 0.05);
+    width: 400px;
+    height: 400px;
+    bottom: -9%;
+    left: -7%;
+    background: transparent;
+    border-radius: 200px;
+    z-index: -1;
+    animation: Rotate 5s linear infinite;
+}
+
+.animation-top::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #f6f6fa;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    border-radius: 22% 78% 33% 67% / 32% 0% 100% 68%;
+    animation: Move 5s linear infinite;
+}
+
+.animated::before{
+    content: "";
+    position: absolute;
+    border: 30px solid rgba(102, 16, 242, 0.05);
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    left: 100px;
+    bottom: 100px;
+    border-radius: 150px;
+    animation: Move1 45s linear infinite;
+}
+
+.animated::after{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 50px;
+    background-image: url(Image/header/sty-1.png);
+    z-index: -1;
+    left: 100px;
+    bottom: 100px;
+    animation: Move2 45s linear infinite;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 50px;
+    background-image: url(Image/header/sty-1.png);
+    z-index: -1;
+    left: 0px;
+    top: 100px;
+    animation: Move3 40s linear infinite;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px solid rgba(247, 71, 128, 0.1);
+    animation: Move4 45s linear infinite;
+    top: 50px;
+    left: 50px;
+}
