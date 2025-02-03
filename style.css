@@ -121,7 +121,6 @@ h2{
 .hover6:hover img{
     transform: scale(1.2);
     transition: 0.5s;
-    background-blend-mode: overlay;
 }
  
 /* --------------------------------animation---------------- */
@@ -349,3 +348,4 @@ header::after{
     top: 50px;
     left: 50px;
 }
+

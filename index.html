@@ -18,6 +18,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
         rel="stylesheet">
+
+
+        <style>
+            .overlay{
+    position: relative;
+}
+.overlay::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    top: 0px;
+    left: 0px;
+    border: 10px solid red; 
+}
+.overlay:hover::after{
+    background-color: black;
+    z-index: 1000;
+}
+        </style>
 </head>
 
 <body>
@@ -899,7 +919,10 @@
                     <div class="col-md-6 col-lg-4 col-xl-3">
                         <div class="card">
                             <div class="position-relative bg-darkblue hover6 overflow-hidden">
-                                <img src="Image/Section-8/blog-1.png" alt="" class="card-img-top">
+                                
+                                <div class="overlay">
+                                    <img src="Image/Section-8/blog-1.png" alt="" class="card-img-top">
+                                </div>
 
                                 <div class="blog-info text-white">
                                     <span>
